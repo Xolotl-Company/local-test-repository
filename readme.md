@@ -1,4 +1,3 @@
-
  # Sitio web de prueba de wordpress en repositorio 
 
  ## Acerca de Xolotl Tech
@@ -8,32 +7,38 @@
 
 ## Description
 
-**Este repositorio** es un repositorio de prueba para demostracion de como tener nuestros proyectos de wordpress en [www.github.com].
+**Este repositorio** es un repositorio de prueba para demostracion de como tener nuestros proyectos de wordpress en [GitHub](www.github.com).
 de forma facil y rapida
 
 ## Requisitos
 
 - WordPress 5.0 o superior
-- Servidor web (XAMP,LAMP.MAMP) o Local herramienta multisite de wordpress
+- Servidor web
+- Git
+- Cuenta de Github
 
-## Instalación
+## Instalación servidor web
 
-1. **Descargar el servidor web**: Ingresa a la pagina oficial de cualquiera de estos servidores webs
-2. **Instalar el plugin**:
-   - Desde el escritorio de WordPress, ve a `Plugins` > `Añadir nuevo` y sube el archivo zip del plugin.
-   - Alternativamente, sube la carpeta del plugin directamente al directorio `/wp-content/plugins/`.
-3. **Activar el plugin**: Ve a `Plugins` en el escritorio de WordPress y activa `Custom Checkout Plugin`.
-4. **Configuración**:
-   - Accede a las opciones de configuración del plugin en `Ajustes` > `Checkout Personalizado`.
-   - Marca las opciones deseadas para habilitar la personalización del checkout y el botón de impresión.
+1. **Descargar el servidor web**: Ingresa a la pagina oficial de cualquiera de estos servidores webs:
+   - [MAMP](https://www.mamp.info/en/mac/)
+   - [XAMPP](https://www.apachefriends.org/es/index.html)
+   - [LAMP Ubuntu](https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-on-ubuntu-20-04-es)
+   - [Local Wordpress Multisite](https://localwp.com/releases/)
+
+2. **Instalar Git**:
+   - Ingresa a la pagina oficial de [GIT](https://git-scm.com) selecciona tu sistema operativo y sigue las instrucciones.
+   - Descarga [Wordpress](https://wordpress.org) que se encuentra en tu carpeta **MAMP, XAMPP** ejemplo `/Applications/MAMP/htdocs`
+   - Renombra la carpeta de wordpress al nombre de tu proyecto ejemplo ` Wordpress > nombre de tu proyecto`
+   - Inicia tu repositorio con `git init` en tu terminal
+  
+3.**Instalar Wordpress**
+   - Inicia tu servidor web acepcion que estes usando linux, solo deberas abrir la aplicacion y dar click en el boton de encendido.
+   - Una vez ya iniciado el servidor, deberas ingresar usando `localhost/nombre-de-la-carpeta-de-tu-proyecto`.
+   - Sigue las instrucciones de wordpress.
 
 ## Uso
 
-### Personalización del Checkout
-- Para activar la personalización del checkout, ve a `Ajustes` > `Checkout Personalizado` y marca la casilla "Habilitar campos personalizados". Esto eliminará campos innecesarios del formulario de pago.
 
-### Botón de Impresión
-- Activa la opción "Habilitar botón de impresión" para añadir un botón en la página de agradecimiento. Este botón iniciará el proceso de impresión de los detalles del pedido, eliminando enlaces de productos y ocultando información innecesaria como el nombre del vendedor y el botón de impresión mismo.
 
 ## Contribuciones
 
@@ -44,11 +49,3 @@ Las contribuciones son bienvenidas. Si deseas mejorar el plugin o reportar un pr
 3. Realiza tus cambios y haz commit (`git commit -am 'Añadir nueva funcionalidad'`).
 4. Empuja la rama a tu repositorio (`git push origin feature/nueva-funcionalidad`).
 5. Abre un Pull Request.
-
-## Soporte
-
-Para soporte o preguntas, puedes contactarnos en [soporte@xolotl.mx](mailto:soporte@xolotl.mx) o visitar nuestra página web en [Xolotl Tech](https://www.xolotl.mx).
-
-## Licencia
-
-Este plugin está licenciado bajo la [GPL2](https://www.gnu.org/licenses/old-licenses/gpl-2.0.html). 
