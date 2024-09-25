@@ -1,0 +1,11 @@
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using Mac-mini.local. Set the 'ServerName' directive globally to suppress this message
+[Sat Sep 14 17:40:16.232632 2024] [mpm_event:notice] [pid 1697:tid 8673624640] AH00489: Apache/2.4.43 (Unix) configured -- resuming normal operations
+[Sat Sep 14 17:40:16.232908 2024] [core:notice] [pid 1697:tid 8673624640] AH00094: Command line: '/Users/christiangranados/Library/Application Support/Local/lightning-services/apache-2.4.43+8/bin/darwin/bin/httpd -D FOREGROUND -f /Users/christiangranados/Library/Application Support/Local/run/dsXFafTmp/conf/apache/apache2.conf'
+[Sat Sep 14 17:43:17.794263 2024] [mpm_event:notice] [pid 1697:tid 8673624640] AH00491: caught SIGTERM, shutting down
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using Mac-mini.local. Set the 'ServerName' directive globally to suppress this message
+[Sat Sep 14 17:44:52.529597 2024] [mpm_event:notice] [pid 2241:tid 8661762624] AH00489: Apache/2.4.43 (Unix) configured -- resuming normal operations
+[Sat Sep 14 17:44:52.529879 2024] [core:notice] [pid 2241:tid 8661762624] AH00094: Command line: '/Users/christiangranados/Library/Application Support/Local/lightning-services/apache-2.4.43+8/bin/darwin/bin/httpd -D FOREGROUND -f /Users/christiangranados/Library/Application Support/Local/run/dsXFafTmp/conf/apache/apache2.conf'
+[Sat Sep 14 21:32:18.912163 2024] [mpm_event:notice] [pid 2241:tid 8661762624] AH00491: caught SIGTERM, shutting down
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using Mac-mini.local. Set the 'ServerName' directive globally to suppress this message
+[Wed Sep 25 12:54:21.888160 2024] [mpm_event:notice] [pid 775:tid 8635597312] AH00489: Apache/2.4.43 (Unix) configured -- resuming normal operations
+[Wed Sep 25 12:54:21.888507 2024] [core:notice] [pid 775:tid 8635597312] AH00094: Command line: '/Users/christiangranados/Library/Application Support/Local/lightning-services/apache-2.4.43+8/bin/darwin/bin/httpd -D FOREGROUND -f /Users/christiangranados/Library/Application Support/Local/run/dsXFafTmp/conf/apache/apache2.conf'
