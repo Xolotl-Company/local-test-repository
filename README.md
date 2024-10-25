@@ -31,8 +31,7 @@ de forma facil y rapida
    - Sigue las instrucciones de wordpress.
 
 ## Uso
-
-
+git config --global http.postBuffer 524288000
 
 ## Contribuciones
 
